@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Launches on Jordan Coff</title>
+    <link>http://jordancoff.com/launches/</link>
+    <description>Recent content in Launches on Jordan Coff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="http://jordancoff.com/launches/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

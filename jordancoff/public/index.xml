@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jordan Coff</title>
+    <link>http://jordancoff.com/</link>
+    <description>Recent content on Jordan Coff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="http://jordancoff.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://jordancoff.com/about/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://jordancoff.com/about/</guid>
+      <description>Software engineer born and raised in Mountain View, CA.</description>
+    </item>
+    
+  </channel>
+</rss>
