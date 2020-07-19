@@ -1,0 +1,80 @@
+baseURL = "http://jordancoff.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Jordan Coff"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+googleAnalytics = "UA-172978427-1"
+
+[params]
+title = "I'm Jordan Coff"
+author = "Jordan Coff"
+description = "Software Engineer @ Google Maps"
+profilePicture = "images/jordan.jpg"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+customJs = []
+mainSections = ["launches"]
+musings = ["musings"]
+#images = ["images/site-feature-image.png"]
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/jordancoff"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "Email"
+url = "mailto:jordan.a.coff@gmail.com"
+
+[[params.socialIcons]]
+icon = "fa-apple"
+title = "App Store"
+url = "https://itunes.apple.com/us/developer/jordan-coff/id1114223939"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/jordancoff"
+
+[[params.socialIcons]]
+icon = "fa-stack-overflow"
+title = "Stack Overflow"
+url = "http://stackoverflow.com/users/1700562/jordanc"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Launches"
+  identifier = "launches"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Musings"
+  weight = 200
+  identifier = "musings"
+  url = "/musings/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
